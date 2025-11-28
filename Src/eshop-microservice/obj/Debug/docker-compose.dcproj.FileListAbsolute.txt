@@ -1,0 +1,1 @@
+E:\Eshop-MicroServices\Src\eshop-microservice\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

@@ -1,0 +1,179 @@
+[
+  {
+    "ContainingType": "CatalogAPI.Products.Commands.UpdateProduct.UpdateProductCommandEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "products",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CatalogAPI.Products.Commands.UpdateProduct.UpdateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CatalogAPI.Products.Queries.GetProducts.GetProductResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/problem\u002Bjson"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/problem\u002Bjson"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "Update Product",
+    "Description": "Update Product",
+    "Summary": "Update Product"
+  },
+  {
+    "ContainingType": "CatalogAPI.Products.Queries.GetProducts.GetProductQueryEndPointcs\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "Products",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CatalogAPI.Products.Queries.GetProducts.GetProductResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetProducts",
+    "Description": "Get all  product in the catalog",
+    "Summary": "Get all producst"
+  },
+  {
+    "ContainingType": "CatalogAPI.Products.Commands.CreateProductEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "Products",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CatalogAPI.Products.DTOS.CreateProductDTo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CatalogAPI.Products.Commands.CreateProductResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "EndpointName": "CreateProduct",
+    "Description": "Creates a new product in the catalog",
+    "Summary": "Create a new product"
+  },
+  {
+    "ContainingType": "CatalogAPI.Products.Queries.GetProductById.GetQueryByIdEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "Products/{productId:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CatalogAPI.Products.Queries.GetProducts.GetProductResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetProductbyId",
+    "Description": "GetProductbyId",
+    "Summary": "GetProductbyId"
+  },
+  {
+    "ContainingType": "CatalogAPI.Products.Commands.DeleteProduct.DeleteProductEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "Products/{productId:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CatalogAPI.Products.Queries.GetProducts.GetProductResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/problem\u002Bjson"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "Delete Product",
+    "Description": "Delete Product",
+    "Summary": "Delete Product"
+  },
+  {
+    "ContainingType": "CatalogAPI.Products.Queries.GetProductsByCatagory.GetproductByCatagoryEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "Products/catagory/{catagory}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catagory",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CatalogAPI.Products.Queries.GetProducts.GetProductResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetProductbycatagory",
+    "Description": "GetProductbycatagory",
+    "Summary": "GetProductbycatagory"
+  }
+]

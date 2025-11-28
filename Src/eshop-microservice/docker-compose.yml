@@ -1,0 +1,9 @@
+services:
+  catalogapi:
+    image: postgres
+
+volumes:
+ postegre_catalogapi:  
+
+    
+ 

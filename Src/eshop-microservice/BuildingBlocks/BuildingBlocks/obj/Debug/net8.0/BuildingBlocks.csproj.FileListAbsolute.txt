@@ -1,0 +1,13 @@
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.deps.json
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.dll
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.pdb
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.AssemblyReference.cache
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfoInputs.cache
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfo.cs
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.sourcelink.json
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.dll
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
+E:\Eshop-MicroServices\Src\eshop-microservice\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll

@@ -1,0 +1,12 @@
+services:
+  catalogapi:
+    container_name: catalogapi
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: CatalogDB
+    ports:
+      - "5433:5432"   # Change to 5433 if port conflict happens
+    volumes:
+      - postegre_catalogapi:/var/lib/postgresql

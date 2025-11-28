@@ -1,0 +1,28 @@
+name: dockercompose2346403873778478729
+services:
+  catalogapi:
+    container_name: catalogapi
+    environment:
+      POSTGRES_DB: CatalogDB
+      POSTGRES_PASSWORD: password123
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postegre_catalogapi
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  default:
+    name: dockercompose2346403873778478729_default
+volumes:
+  postegre_catalogapi:
+    name: dockercompose2346403873778478729_postegre_catalogapi
