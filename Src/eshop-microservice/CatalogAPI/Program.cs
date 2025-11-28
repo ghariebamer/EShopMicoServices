@@ -1,5 +1,6 @@
 using Marten;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -12,8 +13,9 @@ builder.Services.AddMediatR(cfg => { cfg.RegisterServicesFromAssembly(typeof(Pro
 builder.Services.AddMarten(options =>
 {
     options.Connection(builder.Configuration.GetConnectionString("Database"));
-    //options.AutoCreateSchemaObjects = Weasel.Core.AutoCreate.All; 
-}).UseLightweightSessions();
+    options.AutoCreateSchemaObjects = Weasel.Core.AutoCreate.All;
+}).UseLightweightSessions(); // Enables scoped sessions
+
 var app = builder.Build();
 
 
