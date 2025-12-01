@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iDQTp0n5uZY=",
+  "dgSpecHash": "FrSkRZ8rjng=",
   "success": true,
   "projectFilePath": "E:\\Eshop-MicroServices\\Src\\eshop-microservice\\CatalogAPI\\CatalogAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\8arieb\\.nuget\\packages\\carter\\8.0.0\\carter.8.0.0.nupkg.sha512",
     "C:\\Users\\8arieb\\.nuget\\packages\\fastexpressioncompiler\\4.1.0\\fastexpressioncompiler.4.1.0.nupkg.sha512",
-    "C:\\Users\\8arieb\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\8arieb\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\8arieb\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\8arieb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\8arieb\\.nuget\\packages\\jasperfx.codegeneration\\3.5.0\\jasperfx.codegeneration.3.5.0.nupkg.sha512",
     "C:\\Users\\8arieb\\.nuget\\packages\\jasperfx.core\\1.5.1\\jasperfx.core.1.5.1.nupkg.sha512",

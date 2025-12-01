@@ -173,3 +173,4 @@ E:\Eshop-MicroServices\Src\eshop-microservice\CatalogAPI\obj\Debug\net8.0\ref\Ca
 E:\Eshop-MicroServices\Src\eshop-microservice\CatalogAPI\bin\Debug\net8.0\JasperFx.CodeGeneration.dll
 E:\Eshop-MicroServices\Src\eshop-microservice\CatalogAPI\bin\Debug\net8.0\JasperFx.Core.dll
 E:\Eshop-MicroServices\Src\eshop-microservice\CatalogAPI\bin\Debug\net8.0\Polly.dll
+E:\Eshop-MicroServices\Src\eshop-microservice\CatalogAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

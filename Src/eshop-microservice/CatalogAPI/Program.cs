@@ -16,6 +16,8 @@ builder.Services.AddMarten(options =>
     options.AutoCreateSchemaObjects = Weasel.Core.AutoCreate.All;
 }).UseLightweightSessions(); // Enables scoped sessions
 
+// add fluent vaildation
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 var app = builder.Build();
 
 
